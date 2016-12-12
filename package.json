@@ -2,13 +2,20 @@
   "name": "types-geolib",
   "version": "0.1.0",
   "license": "MIT",
-  "description": "Types for https://github.com/manuelbieh/geolib",
+  "description": "Types for geolib",
   "typings": "index.d.ts",
   "author": {
     "name": "Morris Allison III",
     "email": "author@morris.xyz",
     "url": "http://morris.xyz"
   },
+  "keywords": [
+    "definition",
+    "geolib",
+    "types",
+    "typescript",
+    "typing"
+  ],
   "homepage": "https://github.com/morrisallison/types-geolib",
   "repository": {
     "type": "git",
