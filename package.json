@@ -1,0 +1,37 @@
+{
+  "name": "types-geolib",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "Types for https://github.com/manuelbieh/geolib",
+  "typings": "index.d.ts",
+  "author": {
+    "name": "Morris Allison III",
+    "email": "author@morris.xyz",
+    "url": "http://morris.xyz"
+  },
+  "homepage": "https://github.com/morrisallison/types-geolib",
+  "repository": {
+    "type": "git",
+    "url": "github:morrisallison/types-geolib"
+  },
+  "bugs": {
+    "url": "https://github.com/morrisallison/types-geolib/issues"
+  },
+  "scripts": {
+    "gamut": "npm run lint && npm run test",
+    "lint": "tslint index.d.ts",
+    "postpublish": "greenkeeper-postpublish",
+    "test": "mocha --compilers ts:ts-node/register --recursive tests"
+  },
+  "devDependencies": {
+    "@types/mocha": "^2.2.33",
+    "@types/node": "0.0.2",
+    "geolib": "^2.0.22",
+    "greenkeeper-postpublish": "^1.0.1",
+    "mocha": "^3.2.0",
+    "ts-node": "^1.3.0",
+    "tslint": "^3.15.1",
+    "tslint-config-typings": "^0.2.3",
+    "typescript": "^2.0.3"
+  }
+}
