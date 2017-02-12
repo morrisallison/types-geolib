@@ -1,5 +1,7 @@
 # Typed Geolib
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/morrisallison/types-geolib.svg)](https://greenkeeper.io/)
+
 The type definition for [`geolib`](https://github.com/manuelbieh/geolib).
 
 [![npm Version](https://img.shields.io/npm/v/types-geolib.svg?style=flat-square)](https://www.npmjs.com/package/types-geolib)
