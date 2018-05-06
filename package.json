@@ -36,7 +36,7 @@
     "geolib": "^2.0.22",
     "greenkeeper-postpublish": "^1.0.1",
     "mocha": "^3.2.0",
-    "ts-node": "^3.0.6",
+    "ts-node": "^6.0.3",
     "tslint": "^5.4.3",
     "tslint-config-typings": "^0.3.1",
     "typescript": "^2.1.4"
